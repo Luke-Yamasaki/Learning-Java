@@ -2,11 +2,29 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NewRoot",
+            "request": "launch",
+            "mainClass": "com.java24hours.NewRoot",
+            "projectName": "Learning-Java_6853d26"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dice",
+            "request": "launch",
+            "mainClass": "com.java24hours.Dice",
+            "projectName": "Learning-Java_6853d26"
+        },
+        {
+            "type": "java",
             "name": "Launch BlankFiller",
             "request": "launch",
             "mainClass": "com.java24hours.BlankFiller",
             "projectName": "Learning-Java_6853d26",
-            "args": ["retromingent", "purple", "lactose-intolerance"]
+            "args": [
+                "retromingent",
+                "purple",
+                "lactose-intolerance"
+            ]
         },
         {
             "type": "java",
