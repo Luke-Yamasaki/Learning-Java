@@ -2,6 +2,14 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArgRoot",
+            "request": "launch",
+            "mainClass": "com.java24hours.ArgRoot",
+            "projectName": "Learning-Java_6853d26",
+            "args": ["8432"]
+        },
+        {
+            "type": "java",
             "name": "Launch NewRoot",
             "request": "launch",
             "mainClass": "com.java24hours.NewRoot",
