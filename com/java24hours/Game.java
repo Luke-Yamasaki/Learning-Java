@@ -41,5 +41,31 @@ class Game {
             System.out.println("You now have " + gameScore + " points.");
         }
 
+        String grade = "B";
+
+        if(grade == "A") {
+            System.out.println("You got an A. Awesome!");
+        } else if (grade == "B") {
+            System.out.println("You got a B. Beautiful!");
+        } else if (grade == "C") {
+            System.out.println("You got a C. Concerning!");
+        } else {
+            System.out.println("You got a D or an F. You'll do well in Congress!");
+        }
+
+        switch(grade) {
+            case "A":
+                System.out.println("You got an A. Awesome!");
+                break;
+            case "B":
+                System.out.println("You got a B. Beautiful!");
+                break;
+            case "C":
+                System.out.println("You got a C. Concerning!");
+                break;
+            default:
+                System.out.println("You got a D or an F. You'll do well in Congress!");
+        }
+
     }
 }
