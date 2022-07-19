@@ -61,8 +61,12 @@ class StringNotes {
         System.out.println(change);
         System.out.println(changeAgain);
 
-        
+        String script = "Blah. Blah. Blah. We're gonna need a bigger chopper.";
+        int position = script.indexOf("We're gonna need a bigger chopper.");
+        System.out.println(position);
 
-
+        if(script.contains("Blah")) {
+            System.out.println("True");
+        }
     }
 }
