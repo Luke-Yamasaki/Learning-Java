@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StringNotes",
+            "request": "launch",
+            "mainClass": "com.java24hours.StringNotes",
+            "projectName": "Learning-Java_6853d26"
+        },
+        {
+            "type": "java",
             "name": "Launch XYSquared",
             "request": "launch",
             "mainClass": "com.java24hours.XYSquared",
