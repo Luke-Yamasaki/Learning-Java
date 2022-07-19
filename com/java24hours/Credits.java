@@ -16,10 +16,10 @@ class Credits {
         String actor4 = "Cassie Scerbo";
         // display information
         System.out.println(title + " (" + year + ")\n" +
-            "An " + director + " film.\n\n" +
-            role1 + "\t" + actor1 + "\n" +
-            role2 + "\t" + actor2 + "\n" +
-            role3 + "\t" + actor3 + "\n" +
-            role4 + "\t" + actor4);
+            "An " + director.toUpperCase() + " film.\n\n" +
+            role1 + "\t" + actor1.toUpperCase() + "\n" +
+            role2 + "\t" + actor2.toUpperCase() + "\n" +
+            role3 + "\t" + actor3.toUpperCase() + "\n" +
+            role4 + "\t" + actor4.toUpperCase());
     }
 }
