@@ -1,12 +1,5 @@
 package com.java24hours;
 
-// For loops in Java are pretty identical to JavaScript
-// for (int dex = 0; dex < 1000; dex++) {
-//     if (dex % 12 == 0) {
-//         System.out.println("#: " + dex);
-//     }
-// }
-
 class Nines {
     public static void main(String[] arguments) {
         for (int dex = 1; dex <= 200; dex++) {
@@ -16,6 +9,14 @@ class Nines {
         System.out.println();
     }
 }
+
+// For loops in Java are pretty identical to JavaScript
+// for (int dex = 0; dex < 1000; dex++) {
+//     if (dex % 12 == 0) {
+//         System.out.println("#: " + dex);
+//     }
+// }
+
 
 // While loops are also identical
 // int dex = 0;
@@ -61,3 +62,49 @@ class Nines {
 //     System.out.println("The index is " + index);
 // }
 // The continue will skip the print statement and will go to 401.
+
+// Break can make a loop run forever
+// while (true) {
+//     if (quitKeyPressed == true) {
+//         break;
+//     }
+// }
+
+// Nesting loops
+// int points = 0;
+// int target = 100;
+// while (target <= 100) {
+//     for (int i =0; i < target; i++) {
+//         if(points > 50) {
+//             break;
+//         }
+//         points = points + i;
+//     }
+// }
+
+// Breaking parent loop
+// int points = 0;
+// int target = 100;
+// targetLoop:
+// while (target <= 100) {
+//     for (int i =0; i < target; i++) {
+//         if(points > 50) {
+//             break targetLoop;
+//         }
+//         points = points + i;
+//     }
+// }
+
+// Complex for loops
+// int i, j;
+// for (i =0, j = 0; i * j < 1000; i++, j+=2) {
+//     System.out.println(i + " + " + j + " = " + (i * j));
+// }
+
+// Apparently, sections of a for loop can be empty
+// int displayCount = 1;
+// int endValue = 13;
+// for ( ; displayCount < endValue; displayCount++) {
+//     do something
+// }
+
