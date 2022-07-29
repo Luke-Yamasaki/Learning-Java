@@ -7,6 +7,7 @@ class Benchmark {
         long index = 0;
         while(true) {
             double x = Math.sqrt(index);
+            System.out.println((x * 100) / 100);
             long now = System.currentTimeMillis();
             if (now > endTime) {
                 break;
@@ -16,4 +17,3 @@ class Benchmark {
         System.out.println(index + " loops in one minute.");
     }
 }
-
