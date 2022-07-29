@@ -24,3 +24,40 @@ class Nines {
 //    dex--;
 // }
 
+// Practice
+// int limit = 5;
+// int count = 1;
+// while (count < limit) {
+//     System.out.println("Pork is not a verb");
+//     count++;
+// }
+
+
+// Do while loops
+// Same as a while loop but some function happens at least once
+// let i = 7;
+// let j = 6;
+// do {
+//     System.out.println("Hi");
+//     i++;
+// } while (i < j);
+
+// Break statements
+// int index = 0;
+// while ( index <= 1000) {
+//  index = index + 5;
+//  if (index == 400) {
+//   break;
+//  }
+// }
+
+// Skipping a conditional
+// int index = 0;
+// while (index <= 1000) {
+//     index = index + 5;
+//     if (index == 400) {
+//         countinue;
+//     }
+//     System.out.println("The index is " + index);
+// }
+// The continue will skip the print statement and will go to 401.
