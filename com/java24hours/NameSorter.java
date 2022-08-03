@@ -34,3 +34,4 @@ class NameSorter {
 // import java.util.*;
 // create the array
 // use the sort() method to rearrange the array
+// you can only sort in ascending order with the sort method
