@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SpaceRemover",
+            "request": "launch",
+            "mainClass": "com.java24hours.SpaceRemover",
+            "projectName": "Learning-Java_b47cb83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Dice",
+            "request": "launch",
+            "mainClass": "com.java24hours.Dice",
+            "projectName": "Learning-Java_b47cb83"
+        },
+        {
+            "type": "java",
             "name": "Launch ThirteensMultiples",
             "request": "launch",
             "mainClass": "com.java24hours.ThirteensMultiples",
