@@ -39,4 +39,3 @@ class Wheel {
         System.out.println();
     }
 }
-

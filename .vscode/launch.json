@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch StudentGrades",
+            "request": "launch",
+            "mainClass": "com.java24hours.StudentGrades",
+            "projectName": "Learning-Java_b47cb83"
+        },
+        {
+            "type": "java",
+            "name": "Launch Wheel",
+            "request": "launch",
+            "mainClass": "com.java24hours.Wheel",
+            "projectName": "Learning-Java_b47cb83"
+        },
+        {
+            "type": "java",
+            "name": "Launch NameSorter",
+            "request": "launch",
+            "mainClass": "com.java24hours.NameSorter",
+            "projectName": "Learning-Java_b47cb83"
+        },
+        {
+            "type": "java",
             "name": "Launch SpaceRemover",
             "request": "launch",
             "mainClass": "com.java24hours.SpaceRemover",
