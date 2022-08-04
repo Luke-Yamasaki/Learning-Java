@@ -1,24 +1,5 @@
 package com.java24hours;
 
-// import java.util.concurrent.ThreadLocalRandom;
-// class StudentGrades {
-//     public static void main(String[] arguments) {
-//         //Define 2d matrix
-//         int students = 20;
-//         String grades[][] = new String[students][students];
-//         //Loop through to assign values
-//         for(int i = 0, j = 0; i < students; i++, j++) {
-            
-
-
-//         }
-//         //Loop through to find average for each student
-//         //Loop through to find the class average
-//         //print every student value and the class average
-        
-//     }    
-// }
-
 class StudentGrades {
     public static void main(String[] arguments) {
         int studentCount = 6;
@@ -35,7 +16,9 @@ class StudentGrades {
         student[3] = bernice;
         student[4] = ernest;
         student[5] = bigMike;
+
         int gradeSum = 0;
+        
         int[] studentSum = new int[studentCount];
         // Loop through the students
         for (int i = 0; i < studentCount; i++) {

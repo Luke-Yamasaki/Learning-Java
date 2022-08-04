@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FourHundredArray",
+            "request": "launch",
+            "mainClass": "com.java24hours.FourHundredArray",
+            "projectName": "Learning-Java_b47cb83"
+        },
+        {
+            "type": "java",
             "name": "Launch StudentGrades",
             "request": "launch",
             "mainClass": "com.java24hours.StudentGrades",
