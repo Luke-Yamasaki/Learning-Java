@@ -64,3 +64,15 @@ class NewerRoot {
 // int newSuffix = suffix.intValue();
 // String count = "25";
 // int myCount = Integer.parseInt(count);
+
+// All user input in the command line gets stored as a string in a String array.
+
+// Autoboxing and unboxing
+// Float total = new 1.3F;
+// float sum = total / 5;
+
+// Autoboxing and unboxing
+// Older Java
+// Integer suffix = new Integer(9205);
+// New Java
+// Integer suffix = 5309;
